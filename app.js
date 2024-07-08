@@ -24,7 +24,6 @@ function comparatexto(texto){
 return (/[A-Z]/.test(texto) || /\d/.test(texto) ||  /[!@#\$%\^\&*\)\(+=._-]/.test(texto) ) ;
 
 }
-
 function procesa_texto(textoremplazado){
 
   document.getElementById("prestacion-encritador").style.display = "none";
@@ -45,9 +44,6 @@ function copiar(){
   });
 
   }
-
-
-
 function funcion_desencriptar(){
       textoinical = document.getElementById("texto-ingresado").value;
     asignarTextoElemento('.parrafo',`${textoinical}`); 
@@ -63,7 +59,5 @@ function condionesIniciales() {
     asignarTextoElemento('.titulo','a');
 
 }
-
-
 
 condionesIniciales();
