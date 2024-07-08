@@ -34,7 +34,7 @@ body {
 
 .cajauno{
     width: 400px;
-    height: 600px;
+    height: 500px;
     text-align: left;
     padding: 10px; 
     border: none;
@@ -126,10 +126,13 @@ body {
 }
 
 .parrafo{
-
+    width: 400px;
+    height: 500px;
     color: #495057;
     font-size: 24px;
     padding: 25px;  
+    border: none;
+    outline: none;
 }
 .copiar{
     width: 328px;
@@ -146,29 +149,62 @@ body {
 }
 
 
-@media (max-width: 1200px){
+@media (max-width: 1000px){
     .header{
         padding: 10%;
+        justify-content: center;
     }
      .Principal{
         flex-direction: column-reverse;
-        padding: 5%;
+        padding: 10%;
     }
-    .presentacion__contenido{
+    .principal-contenido{
         width: auto;
     }
+    .cajauno{
+        width: 80%;
+        height: auto;
+        padding: 2px; 
+    }
+    .botones{
+        flex-direction: column-reverse;
+        padding: 2%;  
+         
+    }
+.encriptar{
+    width: 80%;
+    height: auto;
+    padding: 24px; 
+
+}
+.desencriptar{
+    width: 80%;
+    height: auto;
+    padding: 24px;   
+}
+
+.copiar{
+    width: 80%;
+    height: auto;
+    padding: 24px;   
+}
     .imagen-encritador{
         display: none;
     }
     .prestacion-encritador-texto{
         width: auto;
         flex-direction: column-reverse;
-        padding: 5%;
+        padding: 1%;
+    }
+    .prestacion-encritador{
+        width: auto;
+        flex-direction: column-reverse;
+        padding: 1%;  
+    }
+    .parrafo{
+        width: 80%;
+        height: auto;
+        padding: 2px; 
     }
     }
 
-    @media (min-width: 601px) {
-        .prestacion-encritador {
-            display: block; 
-        }
-    }

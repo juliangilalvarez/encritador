@@ -34,7 +34,7 @@ function procesa_texto(textoremplazado){
 
 function copiar(){
 
-  let textocopiado = document.querySelector('.parrafo').innerText;
+  let textocopiado = document.querySelector('.parrafo').value;
 
   
   navigator.clipboard.writeText(textocopiado).then(() => {
