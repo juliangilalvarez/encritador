@@ -55,9 +55,5 @@ function asignarTextoElemento(elemento, texto) {
     elementoHTML.innerHTML = texto;
  
 }
-function condionesIniciales() {
-    asignarTextoElemento('.titulo','a');
 
-}
 
-condionesIniciales();
